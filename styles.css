@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  }
+
+.dssh {
+  position: relative;
+  top: 8px;
+  left: 10px;
+  width: 60px;
+  height: 46px;
+  z-index: 2;
+  }
+
+.dsshbg {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  height: 60px;
+  padding: 0 0px;
+  z-index: 1;
+  }
