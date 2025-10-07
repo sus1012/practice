@@ -1,5 +1,7 @@
 body {
   background-color: black;
+  overflow-y: auto; 
+  overflow-x: hidden;
   }
 
 .dssh {
@@ -9,6 +11,7 @@ body {
   width: 60px;
   height: 46px;
   z-index: 2;
+  margin: 0;
   }
 
 .dsshbg {
@@ -24,10 +27,19 @@ body {
 
 .rain {
   position: relative;
-  top: 150px;
-  left: 600px;
+  top: 250px;
+  left: 0px;
   z-index: 1;
+  font-size: 50px;
+  text-align: center;
   }
+
+.square {
+  width: 120px;          
+  height: 120px;         
+  object-fit: cover;    
+  border-radius: 0px;
+}
 
 .slide-in {
   position: relative;
