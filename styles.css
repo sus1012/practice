@@ -10,7 +10,7 @@ body {
   left: 10px;
   width: 60px;
   height: 46px;
-  z-index: 2;
+  z-index: 3;
   margin: 0;
   }
 
@@ -22,7 +22,7 @@ body {
   background-color: white;
   height: 60px;
   padding: 0 0px;
-  z-index: 1;
+  z-index: 2;
   }
 
 .rain {
@@ -39,6 +39,7 @@ body {
   height: 120px;         
   object-fit: cover;    
   border-radius: 0px;
+  z-index: 1;
 }
 
 .slide-in {
